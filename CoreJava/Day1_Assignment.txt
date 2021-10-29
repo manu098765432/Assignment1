@@ -1,0 +1,156 @@
+1)Declare three number variables with values 12,25,89 find the greatest number and display
+  package Assignment1;
+  public class Greatesofthree {
+	public static void main(String args[]) {
+		int a=12,b=25,c=89,largest,temp;
+		temp=c>b?c:b;
+		largest=a>temp?a:temp;
+		System.out.println("The largest number is:"+largest);
+		}
+               }
+	
+        
+2)
+  package Assignment1;
+
+  public class Naturalnum {
+	public static void main(String args[]) {
+		int i=1;
+		while(i<=10)
+		{
+			System.out.println(i);
+			i++;
+		}
+             }
+         }
+
+
+3)
+ package Assignment1;
+
+public class Cube {
+	public static void main(String args[]) {
+	int x=2;
+	int y;
+	y=x*x*x;
+	System.out.println(y);
+	}
+    }
+
+4)
+  package Assignment1;
+
+public class Sumvaluesarray {
+	public static void main(String args[]) {
+		int a[]=new int[5];
+		a[0]=5;
+		a[1]=1;
+		a[2]=2;
+		a[3]=8;
+		a[4]=3;
+		int sum=0;
+		for(int i=0;i<=a.length-1;i++) {
+			sum=sum+a[i];
+		}
+		System.out.println("The sum of all the ements is:"+sum);
+	   }
+       }
+ 5)
+  package Assignment1;
+
+public class Sumvaluesarray {
+	public static void main(String args[]) {
+		int a[]=new int[5];
+		a[0]=5;
+		a[1]=1;
+		a[2]=2;
+		a[3]=8;
+		a[4]=3;
+		int sum=0;
+		for(int i=0;i<=a.length-1;i++) {
+			sum=sum+a[i];
+		}
+		System.out.println("The sum of all the ements is:"+sum);
+		}
+            }
+
+6)
+ package Assignment1;
+
+public class Reversearray {
+	public static void main(String args[]) {
+		int arr[]={12,67,56,98,78};
+		int i;
+		for(i=arr.length-1;i>=0;i--)
+		{
+			System.out.println(arr[i]+" ");
+		}
+	}
+    }
+
+7)
+  package Assignment1;
+
+public class Ovaldollar {
+	public static void main(String args[]) {
+		String str="Welcome";
+		String new_str=str.replace('e','$');
+		System.out.println("New String:"+new_str);
+	}
+      }
+
+8)
+  package Assignment1;
+
+public class Idenduplicatearray {
+	public static void main(String args[]) {
+		int arr[]=new int[] {1,2,3,4,2,7,8,8,3};
+		System.out.println("Duplicate elements in the given array are:");
+		
+		for(int i=0;i<arr.length;i++) {
+			for(int j=i+1;j<arr.length;j++) {
+				if(arr[i]==arr[j])
+					System.out.println(arr[j]);
+			}
+                     }
+                 }
+              }
+
+9)
+  
+10)
+  package Assignment1;
+
+public class Twolargenumarray {
+	public static void main(String args[]) {
+		int arr[]=new int[] {3,5};
+		int maxval1=3;
+		int maxval2=5;
+		for(int i=0;i<=arr.length-1;i++) {
+			if(arr[i]>maxval1) {
+			maxval2=maxval1;
+			maxval1=arr[i];
+			
+		}
+		else if(arr[i]>maxval2 && arr[i]<maxval1)
+		{
+			maxval2=arr[i];
+			
+		}
+		}
+		
+		System.out.println(maxval1);
+		System.out.println(maxval2);
+		
+		
+		
+	}
+		
+	}
+
+
+
+ 
+
+		
+	    
